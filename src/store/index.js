@@ -1,4 +1,3 @@
-import { act } from "react-dom/test-utils";
 import { createStore } from "redux";
 
 const countReducer = function (state = { todoList: [], label: "" }, action) {
